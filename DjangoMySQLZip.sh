@@ -1,4 +1,5 @@
 #!/bin/bash
+# created by Ian Besina
 project="$(basename "$(pwd)")"
 cd ..
 /opt/lampp/bin/mysqldump -u root -p --databases "$1" > "$1".sql
